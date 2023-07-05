@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	
+	<style>
+		.myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 25px; /* Some padding */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 28px; /* Increase font size */
+}
+
+	</style>
+
+	<script>
+		let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+	</script>
+	
+</head>
+
+<body>
+	<!--Header(start)-->
+	<table class="nav" id="header" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="parrot green" >
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td>
+							
+
+						</td>
+
+						<td>
+							<font face="Verdana" size="6">
+								<b>Kunal Ghogale</b>
+							</font>
+						</td>
+
+						<td width="15%">
+							
+						</td>
+
+						<td>
+							<a href="#home" style="text-decoration:none">
+								<font face="Verdana" size="4" color=black>
+									Home
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="Verdana" size="4" color=black>
+									About
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#Skills" style="text-decoration:none">
+								<font face="Verdana" size="4" color=black>
+									Skills
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+						
+
+						<td>
+							<a href="#projects" style="text-decoration:none">
+								<font face="Verdana" size="4" color=black>
+									Projects
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#achievements" style="text-decoration:none">
+								<font face="Verdana" size="4" color=black>
+									Achievements
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#contact" style="text-decoration:none">
+								<font face="Verdana" size="4" color=black>
+									Contact
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Header(end)-->
+
+	<!--Home(start)-->
+	<table id="home" border="1" width="100%"
+		cellpadding="20" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td align="center" valign="middle">
+							<h3>
+								<font face="Times New Roman"
+									size="6" color="White">
+									Hi Friends!
+								</font>
+								
+							</h3>
+
+							<h2>
+								<font face="Verdana" size="6"
+									color="white">
+									<!-- Freelance Programmer -->
+								</font>
+							</h2>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Home(end)-->
+
+
+	<!--About(start)-->
+	<table id="about" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="parrot green">
+								About Me
+							</font>
+							<hr color="parrot green" width="230">
+						</td>
+					</tr>
+
+					<tr>
+						<td width="40%">
+							<img src="images/WhatsApp Image 2023-06-25 at 22.11.57.jpeg" height="400px">
+						</td>
+
+						<td width="60%">
+							<font face="Verdana" size="4"
+								color="white">
+								Thanks for your interest, here
+								is a quick story of me.
+								<hr color="black">
+								I'm Kunal Ghogale, a passionate web developer specializing in front-end development. With expertise in HTML, CSS, and JavaScript, I enjoy creating visually appealing and user-friendly websites.
+								<hr color="black">
+
+								I have a strong eye for design and a knack for translating ideas into code. I strive to stay up-to-date with the latest web technologies and trends to deliver modern and responsive web experiences
+								<hr color="black">
+
+								I am dedicated to delivering high-quality work and This website is basically one of my Web Development project which is built using HTML and CSS only.
+								
+
+								Thanks again for reading this,
+								because of people like you, it
+								exists and prospers!
+								<hr color="black">
+								
+							</font>
+						</td>
+					</tr>
+				</table>
+				<hr color="black">
+				<hr color="black">
+				<hr color="black">
+			</td>
+		</tr>
+	</table>
+	<!--About(end)-->
+
+
+	<table id="Skills" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="120" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="black">
+								Skills
+							</font>
+							<hr color="black" width="120">
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10">
+							<font face="Times New Roman"
+								size="5" color="black">
+								<ul>
+									
+									<li>
+										<hr color="#c2c0c3">
+										C Language
+										
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										CPP Language
+										
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										Python
+										
+									</li>
+
+
+									<li>
+										<hr color="#c2c0c3">
+										Java
+										
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										HTML
+										
+									</li>
+									<li>
+										<hr color="#c2c0c3">
+										CSS
+										
+									</li>
+									<li>
+										<hr color="#c2c0c3">
+										JavaScript
+										
+									</li>
+									<li>
+										<hr color="#c2c0c3">
+										Data Structure
+										
+									</li>
+									<li>
+										<hr color="#c2c0c3">
+										DBMS and MYSQL
+										
+									</li>
+
+
+								</ul>
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+							</font>
+						</td>
+
+						<td width="45%">
+							<img src="images/skills_portfolio.png" alt="Project" height ="300px" width="100%">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+
+	<!--Projects(start)-->
+	<table id="projects" border="0" width="100%"
+		cellpadding="0" cellspacing="0"  bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="parrot green">
+								Projects
+							</font>
+							<hr color="parrot green" width="190">
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10">
+							<font face="Times New Roman"
+								size="5" color="white">
+								<ul>
+									
+									<li>
+										<hr color="black">
+										Calculator
+											 
+									</li>
+							  
+
+									<li>
+										<hr color="black">
+										Hospital Management
+										
+									</li>
+
+									<li>
+										<hr color="black">
+										Sentiment Analysis
+										
+									</li>
+
+
+									<li>
+										<hr color="black">
+										ToDo App
+										
+									</li>
+
+									<li>
+										<hr color="black">
+										Travel Management System
+									
+									</li>
+								</ul>
+								<hr color="black">
+								<hr color="black">
+								<hr color="black">
+								<hr color="black">
+							</font>
+						</td>
+
+						<td width="45%">
+							<img src="images/project_portfolio.jpg" alt="Project" height ="300px" width="95%">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Projects(end)-->
+
+	<!--Achievement(start)-->
+	<table id="achievements" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Verdana" size="7" color="Black">
+								Achievements
+								<hr color="Black" width="310">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Verdana" size="4" color="black">
+								<ul>
+									<li>
+										<b>Scored 729 marks in JTP assestments.</b>
+										<ul>
+											<li>
+												May 16,2023
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										<hr color="#c2c0c3">
+										<hr color="#c2c0c3">
+										<b>Runnerup at Technosnih.</b>
+										<ul>
+											<li>
+												Octomber,2022
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										<hr color="#c2c0c3">
+										<hr color="#c2c0c3">
+										<b>Runnerup at Bytes competition.</b>
+										<ul>
+											<li>
+												Octomber,2021 
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										<hr color="#c2c0c3">
+										<hr color="#c2c0c3">
+										<b>Football Team winner at cocacola up</b>
+										<ul>
+											
+											<hr color="#c2c0c3">
+											<hr color="#c2c0c3">
+											<hr color="#c2c0c3">
+											<hr color="#c2c0c3">
+											<hr color="#c2c0c3">
+										</ul>
+									</li>
+
+								</ul>
+
+							</font>
+							
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Achievement(end)-->
+
+
+	<!--Contact(start)-->
+	<table id="contact" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<form method="post">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="parrot green">
+								Contact
+							</font>
+							<hr color="parrot green" width="180">
+						</td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellpadding="15"
+								cellspacing="0" align="center" bgcolor="#4CAF50" >
+								<tr>
+									<td width="30%">
+										<hr color="#4CAF50">
+										<font face="Verdana" size="4"
+											color="white" required>
+											Name
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="white">
+											<input type="text" size="40" required>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="white">
+											Email
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="white">
+											<input type="email" size="40" required>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="white">
+											Number
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="white">
+											<input type="number" size="12" required>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="white">
+											Message
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="white">
+											<textarea rows="5"
+												cols="37">
+											</textarea>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										
+									</td>
+									<td width="70%">
+										<input type="submit" value="Submit">
+											<font face="Verdana"
+												size="4" color="black"></font>
+										
+										<hr color="#4CAF50">
+										<hr color="#4CAF50">
+									</td>
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</form>
+				</table>
+
+			</td>
+		</tr>
+	</table>
+	<!--Contact(end)-->
+
+
+	<!--Footer1(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="parrot green">
+		<style>
+			b.hover{
+				color: tomato;
+			}
+		</style>
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="13%" valign="top">
+							<b>LinkedIn</b>
+							<a href="https://www.linkedin.com/in/kunal-ghogale-4abb5b258/" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>GitHub</b>
+							<a href="https://github.com/9890430280" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>HackerRank</b>
+							<a href="https://www.hackerrank.com/mailmekunalghog1?hr_r=1" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Instagram</b>
+							<a href="https://www.instagram.com/ghogalekunal_19/" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Email</b>
+							<a href="mailmekunalghogale@gmail.com" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						
+						
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Footer1(end)-->
+
+
+	<!--Footer2(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="80%" valign="top">
+							
+						</td>
+
+						
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	</table>
+	<!--Footer2(end)-->
+
+</body>
+
+</html>
